@@ -1,22 +1,22 @@
 import React from "react";
-import Image from "next/image";
-import HeroImg from "../../public/HeroImg.svg";
+
 
 const Hero = () => {
 	return (
-		<div className="xl:w-[90%]  my-auto xl:ml-19">
-			<div className="flex flex-col lg:flex-row gap-6 mt-25 lg:mt-15 mx-8 items-center justify-center lg:justify-between w-[100%]">
-				<div className=" sm:text-center lg:text-left">
-					<h1 className="text-[45px] font-bold xl:leading-23 leading-14 lg:text-left sm:text-center lg:w-md xl:w-3xl xl:text-7xl">
-						Find the Best Crypto Pools — Without the Headache.
+		<div className=" my-auto xl :">
+			<div className="flex flex-col lg:flex-row gap-6 mt-25 lg:mt-15 mx-8 items-center justify-center  ">
+				<div className=" text-center mt-34 ">
+					<h1 className="text-[35px] sm:text-[48px] md:text-[55px] font-bold xl:leading-20 leading-14 text-center   ">
+						Smarter DeFi Investments, Powered by AI.
 					</h1>
+          <p className="text-base sm:text-xl mt-8 text-center">
+            YieldSync analyzes your wallet and recommends the best <br /> pools to maximize returns — explained in plain English.
+          </p>
 					<button className="bg-[#00D4FF] text-[#000000] mt-8 px-7 py-3 rounded-3xl lg:px-12 lg:text-lg cursor-pointer sm:inline-block">
-						Join the Waitlist
+						Get Early Access
 					</button>
 				</div>
-				<div className="">
-					<Image width={700} src={HeroImg} alt="Hero image" />
-				</div>
+				
 			</div>
 		</div>
 	);

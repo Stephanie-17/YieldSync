@@ -21,18 +21,18 @@ const NavBar = () => {
 			</Link>
 			<div className=" bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 rounded-4xl py-3 w-94 md:w-120 lg:w-150 justify-center gap-12 md:gap-24 lg:gap-40 text-lg hidden sm:flex">
 				<Link className="" href={"/"}>
-					About
+					About Us
 				</Link>
 				<Link className="" href={"/"}>
-					Services
+					Contact Us
 				</Link>
 				<Link className="" href={"/"}>
-					Wallet
+					FAQs
 				</Link>
 			</div>
 			<Link href={"/"}>
 				<button
-					className={`bg-[#00D4FF] text-[#000000] px-7 py-2 rounded-3xl lg:px-12 lg:text-base cursor-pointer hidden sm:inline-block`}
+					className={`bg-[#00D4FF] text-[#000000] px-7 py-3 rounded-3xl lg:px-12 lg:text-base cursor-pointer hidden sm:inline-block`}
 				>
 					Sign up
 				</button>
@@ -66,19 +66,19 @@ const NavBar = () => {
 					className="hover:bg-cyan-500 hover:text-black duration-1000 py-4 block"
 					href={"/"}
 				>
-					About
+					About Us
 				</Link>
 				<Link
 					className="hover:bg-cyan-500 hover:text-black duration-1000 py-4 block"
 					href={"/"}
 				>
-					Services
+					Contact Us
 				</Link>
 				<Link
 					className="hover:bg-cyan-500 hover:text-black duration-1000 py-4 block"
 					href={"/"}
 				>
-					Wallet
+					FAQs
 				</Link>
 				<Link href={"/"}>
 					<button className="bg-[#00D4FF] text-[#494949] px-7 py-2 rounded-3xl mt-3">
