@@ -23,7 +23,7 @@ const NavBar = () => {
       {/* Desktop Navigation */}
       <div className="bg-white/5 backdrop-blur-lg shadow-lg border border-white/20 rounded-4xl py-3 w-94 md:w-120 lg:w-150 justify-center gap-12 md:gap-24 lg:gap-40 text-lg hidden sm:flex">
         <Link 
-          className="relative group  rounded-4xl transition-all duration-300 hover:shadow-[0_1px_19px_#00a2ff] hover:bg-[#2fa9f0dc] hover:text-black"
+          className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
           href={"/about"}
         >
           About Us
@@ -31,7 +31,7 @@ const NavBar = () => {
         </Link>
         
         <Link 
-          className="relative group  rounded-4xl transition-all duration-300 hover:shadow-[0_1px_19px_#00a2ff] hover:bg-[#00a2ff7f] hover:text-black"
+          className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
           href={"/"}
         >
           Contact Us
@@ -39,7 +39,7 @@ const NavBar = () => {
         </Link>
         
         <Link 
-          className="relative group  rounded-4xl transition-all duration-300 hover:shadow-[0_1px_19px_#00a2ff] hover:bg-[#00a2ff7f] hover:text-black"
+          className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
           href={"/"}
         >
           FAQs
