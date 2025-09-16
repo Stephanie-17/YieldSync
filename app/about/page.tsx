@@ -32,7 +32,7 @@ const About = () => {
 			</div>
 
 			<div className="values">
-				<h1 className="text-center mb-15 text-5xl">Our <span className="bg-[#080466]">Values</span> <br />
+				<h1 className="text-center mb-15 text-5xl">Our <span className="text-[#3a33fe]">Values</span> <br />
         <span  className="text-sm font-light text-blue-500 italic -mt-4 ">What we stand for</span>
         </h1>
 				<div className="value-cards flex flex-col min-[420px]:flex-row gap-7 items-center justify-center flex-wrap xl:gap-20">
