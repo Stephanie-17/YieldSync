@@ -47,7 +47,7 @@ const About = () => {
 				</div>
 			</div>
 			<div className="founders mt-45">
-				<h1 className="text-center mb-19 text-5xl">Meet The Founders <br /> <span  className="text-sm font-light text-blue-500 italic -mt-4 ">The faces behind the brand</span></h1>
+				<h1 className="text-center mb-19 text-5xl">Meet The Founders <br /> <span  className="text-sm font-light text-blue-500 italic -mt-4 ">The faces behind the product</span></h1>
 				<div className="founder-cards flex flex-col items-center justify-center gap-7 sm:flex-row lg:gap-23">
           {
 						founderInfo.map(info=>(

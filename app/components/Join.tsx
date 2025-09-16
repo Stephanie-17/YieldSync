@@ -19,7 +19,7 @@ const Join = () => {
 					<span className="text-shadow-blue-400 text-shadow-2xs">Join the Team now!</span>
 				</p>
 				<button className=" text-[#000000] px-7 py-2 rounded-3xl transition-all duration-300 bg-[#00a2ff] shadow-[0_1px_15px_#00a2ff] cursor-pointer">
-					Sign Up
+					Join Us
 				</button>
 			</div>
 		</div>
