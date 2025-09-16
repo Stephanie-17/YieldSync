@@ -5,6 +5,9 @@ import { aboutInfo } from "../../data/aboutInfo";
 import AboutImg from "../../public/AboutImgs.jpg";
 import ValueCard from "../components/ValueCard";
 import { valueInfo } from "@/data/valueInfo";
+import Join from "../components/Join";
+import FounderCard from "../components/FounderCard";
+import { founderInfo } from "@/data/founderInfo";
 
 const About = () => {
 	return (
@@ -43,6 +46,20 @@ const About = () => {
           }
 				</div>
 			</div>
+			<div className="founders mt-45">
+				<h1 className="text-center mb-19 text-5xl">Meet The Founders <br /> <span  className="text-sm font-light text-blue-500 italic -mt-4 ">The faces behind the brand</span></h1>
+				<div className="founder-cards flex flex-col items-center justify-center gap-7 sm:flex-row lg:gap-23">
+          {
+						founderInfo.map(info=>(
+							<FounderCard key={info.id} name={info.name} image={info.image} position={info.position} bio={info.bio} linkedin={info.linkedinLink} github={info.githubLink} />
+						))
+					}
+
+				</div>
+
+			</div>
+			<Join />
+
 		</div>
 	);
 };

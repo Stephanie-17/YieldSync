@@ -82,7 +82,7 @@ const NavBar = () => {
         
         <Link
           className="relative group px-4 py-3 block transition-all duration-300 hover:bg-[#00a2ff7f] hover:text-black"
-          href={"/"}
+          href={"/about"}
           onClick={() => setToggleMenu(false)}
         >
           About Us
