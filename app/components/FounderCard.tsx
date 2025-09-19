@@ -15,7 +15,7 @@ interface FounderCardProps {
 const FounderCard = ({name, image, position, bio, linkedin, github}: FounderCardProps) => {
   return (
     <div>
-      <div className=" border-2 border-white/50 bg-white/10 w-[270px] rounded-2xl flex flex-col items-center text-center px-4 py-4 sm:w-[300px] md:w-[400px] hover:-translate-y-6 duration-1000">
+      <div className=" border-2 border-white/50 bg-white/10 w-[270px] rounded-2xl flex flex-col items-center text-center px-4 py-4 sm:w-[300px] md:w-[365px] lg:w-[400px] hover:-translate-y-6 duration-1000">
         <Image className='rounded-[100px] w-[150px] h-[150px] object-cover mb-2' src={image} width={100} height={100} alt='' />
         <p className="name font-semibold mb-1 text-lg">{name}</p>
         <p className="title font-semibold text-sm mb-3">{position}</p>
