@@ -63,14 +63,14 @@ const NavBar = () => {
       {/* Mobile Overlay */}
       <div
         onClick={() => setToggleMenu(false)}
-        className={`fixed inset-0 bg-black/30 backdrop-blur-sm z-40 transition-opacity duration-300 ${
+        className={`fixed inset-0 bg-black/30 backdrop-blur-sm z-40 transition-opacity duration-900 ${
           toggleMenu ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       ></div>
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 right-0 h-[70vh] w-[90%] bg-white/50 dark:bg-zinc-900/50 backdrop-blur-md shadow-lg rounded-b-3xl z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-[70vh] w-[90%] bg-white/50 dark:bg-zinc-900/50 backdrop-blur-md shadow-lg rounded-b-3xl z-50 transform transition-transform duration-900 ${
           toggleMenu ? "translate-y-0" : "-translate-y-full"
         }`}
       >
