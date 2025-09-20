@@ -59,7 +59,7 @@ export default function FAQPage() {
   return (
     <>
       <NavBar />
-      <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden p-6 md:p-12 duration-1000">
+      <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden p-6 md:p-12 duration-1000 pt-40">
 
         
         <div className="absolute -top-20 left-1/3 w-[600px] h-[600px] -z-10 bg-gradient-to-tr from-blue-500/30 to-transparent rounded-full blur-3xl opacity-70" />
