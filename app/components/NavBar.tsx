@@ -24,6 +24,14 @@ const NavBar = () => {
       <div className="bg-white/5 backdrop-blur-lg shadow-lg border border-white/20 rounded-4xl py-3 w-94 md:w-120 lg:w-150 justify-center gap-12 md:gap-24 lg:gap-40 text-lg hidden sm:flex">
         <Link 
           className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
+          href={"/"}
+        >
+          Home
+          <div className="absolute bottom-0 left-1/2 h-0.5 w-0 bg-blue-400 rounded transition-all duration-300 group-hover:w-3/5 group-hover:-translate-x-1/2"></div>
+        </Link>
+        
+        <Link 
+          className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
           href={"/about"}
         >
           About Us
@@ -32,22 +40,14 @@ const NavBar = () => {
         
         <Link 
           className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
-          href={"/"}
-        >
-          Contact Us
-          <div className="absolute bottom-0 left-1/2 h-0.5 w-0 bg-blue-400 rounded transition-all duration-300 group-hover:w-3/5 group-hover:-translate-x-1/2"></div>
-        </Link>
-        
-        <Link 
-          className="relative group  rounded-4xl transition-all duration-300 hover:-translate-y-1"
-          href={"/"}
+          href={"/faqs"}
         >
           FAQs
           <div className="absolute bottom-0 left-1/2 h-0.5 w-0 bg-blue-400 rounded transition-all duration-300 group-hover:w-3/5 group-hover:-translate-x-1/2"></div>
         </Link>
       </div>
       
-      <Link href={"/"}>
+      <Link href={"/sign-up"}>
         <button
           className={`bg-[#00D4FF] text-[#000000] px-7 py-3 rounded-3xl lg:px-12 lg:text-base cursor-pointer hidden sm:inline-block transition-all duration-300 hover:bg-[#00a2ff] hover:shadow-[0_1px_15px_#00a2ff]`}
         >
@@ -91,7 +91,7 @@ const NavBar = () => {
         
         <Link
           className="relative group px-4 py-3 block transition-all duration-300 hover:bg-[#00a2ff7f] hover:text-black"
-          href={"/"}
+          href={"/contact"}
           onClick={() => setToggleMenu(false)}
         >
           Contact Us
@@ -100,7 +100,7 @@ const NavBar = () => {
         
         <Link
           className="relative group px-4 py-3 block transition-all duration-300 hover:bg-[#00a2ff7f] hover:text-black"
-          href={"/"}
+          href={"/faqs"}
           onClick={() => setToggleMenu(false)}
         >
           FAQs
@@ -108,7 +108,7 @@ const NavBar = () => {
         </Link>
         
         <Link 
-          href={"/"}
+          href={"/sign-up"}
           onClick={() => setToggleMenu(false)}
           className="mt-3"
         >

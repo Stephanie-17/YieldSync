@@ -8,11 +8,12 @@ import { valueInfo } from "@/data/valueInfo";
 import Join from "../components/Join";
 import FounderCard from "../components/FounderCard";
 import { founderInfo } from "@/data/founderInfo";
+import Info from "../components/Info";
 
 const About = () => {
 	return (
 		<div
-			className="h-fit bg-[rgba(0,0,0,0.1)] bg-blend-multiply pb-30"
+			className="h-fit  pb-30"
 			style={{
 				backgroundImage: `url(${AboutImg.src})`,
 				backgroundPosition: "center",
@@ -59,7 +60,7 @@ const About = () => {
 
 			</div>
 			<Join />
-
+      <Info />
 		</div>
 	);
 };
