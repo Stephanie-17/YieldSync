@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { useSideBar } from "./SideBarContext";
+import SideNavItem from "./SideNavItem";
+import { navItem } from "@/data/navItem";
+import { usePathname } from "next/navigation";
 
 const SideBar = () => {
+	const pathname = usePathname()
 	const {isOpen, closeSideBar, toggleSideBar} = useSideBar()
 	return (
 		<>
@@ -41,7 +45,15 @@ const SideBar = () => {
 							onClick={closeSideBar}
 						/>
 					</div>
-					{/* Add your navigation items here */}
+				   <div className="nav-items mt-10">
+						{navItem.map(item=>{
+							const isActive = pathname === item.href
+
+							return(
+								<SideNavItem key={item.id} name={item.name} href={item.href} image={item.image} isActive={isActive} />
+							)
+						})}
+					 </div>
 				</div>
 			</div>
 		</>
