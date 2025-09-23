@@ -20,3 +20,24 @@ export interface FounderInfo {
   linkedinLink: string
 
 }
+
+export interface NavItem {
+  id: number,
+  image: string
+  name: string,
+  href: string
+}
+
+export interface Summary {
+  id: number,
+  name: string,
+  value:string,
+  money: boolean
+}
+
+export interface RecommendInfo {
+  id: number,
+  name: string,
+  risk: string
+
+}
