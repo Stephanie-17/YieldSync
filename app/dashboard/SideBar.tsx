@@ -20,7 +20,7 @@ const SideBar = () => {
 
 			{/* Sidebar - Modified for desktop closeable behavior */}
 			<div
-				className={`fixed inset-y-0 left-0 z-50 bg-[#070550] shadow-[0px_4px_12px] shadow-gray-900 transform transition-all duration-300 ease-in-out lg:relative lg:z-auto lg:flex-shrink-0 ${
+				className={`fixed inset-y-0 left-0 z-50 bg-[#000000] shadow-[0px_4px_12px] shadow-gray-900 transform transition-all duration-300 ease-in-out lg:relative lg:z-auto lg:flex-shrink-0 ${
 					isOpen
 						? "w-64 translate-x-0"
 						: "w-0 -translate-x-full lg:translate-x-0 lg:w-0"
