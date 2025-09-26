@@ -11,7 +11,7 @@ export const navItem: NavItem[] = [
     id: 2,
     image: '/wallet-icon.svg',
     name: 'Wallets',
-    href: '/dashboard/wallets'
+    href: '/dashboard/wallet'
   },
   {
     id: 3,

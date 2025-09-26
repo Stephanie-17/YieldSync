@@ -3,8 +3,9 @@ import Image from "next/image";
 import { useSideBar } from "./SideBarContext";
 
 const NavBar = () => {
-	const { toggleSideBar, } = useSideBar();
+	const { toggleSideBar,isOpen } = useSideBar();
 	
+	if(!isOpen)
 	return (
 		<nav className=" shadow-sm   px-4 pt-3">
 			<div className="flex items-center justify-between">

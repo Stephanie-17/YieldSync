@@ -41,3 +41,9 @@ export interface RecommendInfo {
   risk: string
 
 }
+
+export interface SupportedChainInfo {
+  id:number,
+  image:string,
+  name:string
+}
