@@ -28,11 +28,11 @@ const SignInForm: React.FC<SignInFormProps> = ({
       <NavBar />
 
       <div className="min-h-[80vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-md bg-white/90 dark:bg-zinc-900/80 backdrop-blur-md -mt-6 sm:-mt-10 rounded-xl shadow-xl p-6 sm:p-8">
+        <div className="w-full max-w-md bg-zinc-900/80 backdrop-blur-md -mt-6 sm:-mt-10 rounded-xl shadow-xl p-6 sm:p-8">
           {/* Header */}
           <div className="text-center mb-6">
             <h2 className="text-xl sm:text-2xl font-bold mb-1">Welcome Back</h2>
-            <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+            <p className="text-xs sm:text-sm text-gray-300 ">
               Enter your credentials to access your account
             </p>
           </div>
@@ -100,7 +100,7 @@ const SignInForm: React.FC<SignInFormProps> = ({
               />
               <label
                 htmlFor="remember"
-                className="ml-2 text-xs sm:text-sm text-gray-600 dark:text-gray-300"
+                className="ml-2 text-xs sm:text-sm text-gray-300 "
               >
                 Remember me
               </label>
@@ -116,7 +116,7 @@ const SignInForm: React.FC<SignInFormProps> = ({
           </form>
 
           {/* Footer */}
-          <div className="text-center mt-6 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+          <div className="text-center mt-6 text-xs sm:text-sm text-gray-300 ">
             Don&apos;t have an account?{" "}
             <button
               onClick={onCreateAccount}
