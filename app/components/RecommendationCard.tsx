@@ -24,7 +24,7 @@ const RecommendationCard = ({name, risk}: RecommendationCardProps) => {
                     </div>
                   </div>
                   <div className="p-4 sm:p-0 sm:ml-auto mr-3.5 flex sm:items-center j sm:justify-end">
-                    <button className="bg-[#00a2ff] px-6 py-2 rounded-3xl text-white font-medium  hover:bg-[#0090e6] transition">
+                    <button className="bg-[#00a2ff] px-6 py-2 rounded-3xl text-white font-medium  hover:bg-[#0090e6] cursor-pointer transition">
                       Explore
                     </button>
                   </div>

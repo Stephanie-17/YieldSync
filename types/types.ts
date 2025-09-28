@@ -47,3 +47,11 @@ export interface SupportedChainInfo {
   image:string,
   name:string
 }
+
+export interface PoolsTableInfo {
+  id: number,
+  pool: string,
+  estimatedAPY: number,
+  riskScore: string,
+  summary: string
+}
