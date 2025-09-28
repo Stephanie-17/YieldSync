@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Wallet = () => {
   return (
-    <div className='p-3 flex justify-center items-center flex-col text-center mt-10'>
+    <div className='p-3 flex justify-center items-center flex-col text-center mt-10 mb-5'>
       <div className="main">
         <div className="header mb-10">
         <h1 className='text-4xl mb-3'>Connect Wallet</h1>
@@ -39,7 +39,7 @@ const Wallet = () => {
         </div>
 
         <Link href={'/sign-up/connect-wallet'}>
-           <button className='bg-[#070550] border-1 mt-10 border-[#7E8BFF] cursor-pointer w-[300px] py-3 rounded-4xl'>Connect Wallet</button>
+           <button className='bg-[#00a2ff] border-1 mt-9 border-[#7E8BFF] cursor-pointer w-[300px] py-3 rounded-4xl'>Connect Wallet</button>
         </Link>
 
         
